@@ -17,6 +17,10 @@ button{
     border: solid black 2px;
 }
 
+body{
+    height: 100vh;
+}
+
 @media all and (max-width: 480px) {
     a {
         font-size: 2vh;
