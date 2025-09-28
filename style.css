@@ -10,6 +10,11 @@
 
 a {
     text-decoration: none;
+    color: black;
+}
+
+button{
+    border: solid black 2px;
 }
 
 @media all and (max-width: 480px) {
@@ -49,6 +54,7 @@ a {
         }
         button {
             border-radius: 2rem;
+            font-weight: 700;
             font-size: 2vh;
             width: 16rem;
             height: 4rem;
