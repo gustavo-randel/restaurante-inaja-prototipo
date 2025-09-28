@@ -3,9 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
     <title>Cadastro</title>
 </head>
 <body>
-    
+    <header>
+        <a href="index.html"><img src="arrow_left_alt_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt=""> Voltar </a>
+        <h1>Crie sua conta</h1>
+    </header>
+    <main>
+        <section>
+            <h1>Informações pessoais</h1>
+            <h2>Nome</h2>
+            <input type="text" placeholder="Nome">
+            <h2>Sobrenome</h2>
+            <input type="text" placeholder="Sobrenome">
+            <h2>CPF</h2>
+            <input type="text" placeholder="Ex: 111.222.333.44">
+            <h2>Telefone</h2>
+            <input type="text" placeholder="Ex: (11) 9 2222-3333">
+        </section>
+
+        <section>
+            <h1 id="h1-align">Informações da conta <span>(Seu login)</span></h1>
+            <input type="text" placeholder="Email">
+            <input type="text" placeholder="Senha">
+            <p>Deve conter de 8 a 50 caracteres</p>
+            <p>Deve incluir uma letra maiúscula</p>
+            <p>Deve ter ao menos um caracter especial ou número</p>
+            <div>
+                <button>Continuar</button>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
