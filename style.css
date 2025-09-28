@@ -9,6 +9,10 @@
     color: black;
 }
 
+body{
+    height: 100vh;
+}
+
 a {
     text-decoration: none;
 }
@@ -17,9 +21,14 @@ button{
     border: solid black 2px;
 }
 
-body{
-    height: 100vh;
+#login button, #register button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 0.2rem;
 }
+
 
 @media all and (max-width: 480px) {
     a {
@@ -32,7 +41,7 @@ body{
         justify-content: center;
         padding: 5rem 1rem;
     }
-        img{
+        header img{
             width: 70vw;
         }
 
@@ -100,7 +109,7 @@ body{
         justify-content: center;
         padding: 5rem 1rem;
     }
-        img{
+        header img{
             width: 30vw;
         }
 
@@ -168,7 +177,7 @@ body{
         justify-content: center;
         padding: 5rem 1rem;
     }
-        img{
+        header img{
             width: 25vw;
         }
 
