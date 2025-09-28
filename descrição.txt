@@ -1,0 +1,49 @@
+Introdução ao Mapa
+A navegação do site será composta por um menu principal, localizado de forma visível no cabeçalho (header) de todas as páginas. Não há necessidade de login ou área de membros por ser um site que promove o estabelecimento.
+O menu principal conterá os seguintes elementos:
+
+Início
+Cardápio
+Sobre Nós
+Contato
+
+Mapa de Navegação
+
+1. Início
+Banner de boas-vindas.
+Chamada rápida: “Conheça nosso cardápio”.
+Horário de funcionamento destacado.
+Mini-blocos que levam às outras páginas:
+
+
+“Nosso Cardápio”
+“Sobre o Restaurante
+“Fale Conosco”
+
+
+2. Cardápio
+Lista de produtos (ex: café, bebidas, salgados, doces).
+Fotos dos destaques (pra não poluir visualmente).
+Preços visíveis ao lado dos produtos.
+
+
+3. Sobre
+Breve história do restaurante.
+Fotos do ambiente e equipe.
+Valores do restaurante.
+
+
+4. Contato
+Telefone e e-mail.
+Formulário simples (nome, e-mail, mensagem).
+Endereço + imagem de mapa do local.
+Links para redes sociais.
+Horários de funcionamento.
+Elementos Globais (Rodapé)
+Endereço resumido.
+Telefone principal.
+Ícones de redes sociais.
+Horário de funcionamento.
+
+mobile first 
+
