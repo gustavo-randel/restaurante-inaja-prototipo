@@ -69,6 +69,11 @@ nav ul {
         text-decoration: none;
     }
 
+main article{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
 .price {
     font-family: var(--preço);
 }
