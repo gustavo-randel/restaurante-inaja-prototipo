@@ -38,11 +38,16 @@ a {
 header{
     display: flex;
     justify-content: center;
-    padding: 5rem 1rem;
+    flex-direction: row;
+    padding: 4rem 1rem;
+    gap: 1rem;
 }
-    header img{
-        width: 50vw;
-    }
+header img#logo-image{
+    width: 30vw;
+}
+header img#logo-text{
+    width: 40vw;
+}
 
 main{
     display: flex;
@@ -58,6 +63,7 @@ main{
         height: fit-content;
         justify-content: center;
         padding-top: 5rem;
+        padding-bottom: 5rem;
         gap: 2rem;
     }
     h1 {
@@ -99,17 +105,19 @@ main{
 
 @media all and (max-width: 480px) {
 a {
-font-size: 2vh;
-font-weight: 700;
-color: #2B1515;
+    font-size: 2vh;
+    font-weight: 700;
+    color: #2B1515;
 }
 header{
-display: flex;
-justify-content: center;
-padding: 5rem 1rem;
+    padding: 5rem 1rem;
 }
-header img{
-    width: 70vw;
+header img#logo-image{
+    width: 30vw;
+    margin: -1rem;
+}
+header img#logo-text{
+    width: 40vw;
 }
 section {
     padding-top: 5rem;
@@ -140,10 +148,18 @@ button {
     color: #2B1515;
     }
     header{
-        padding: 5rem 1rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        padding: 4rem 1rem;
+        gap: 1rem;
     }
-        header img{
+        header img#logo-image{
             width: 30vw;
+            margin: -.5rem;
+        }
+        header img#logo-text{
+            width: 40vw;
         }
     section {
         padding-top: 5rem;
@@ -173,11 +189,22 @@ button {
     color: #2B1515;
     }
     header{
-        padding: 5rem 1rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        padding: 4rem 1rem;
+        gap: 1rem;
     }
-    header img{
-        width: 25vw;
-    }
+        header img#logo-image{
+            width: 18vw;
+            padding: 0;
+            margin: 0;
+        }
+        header img#logo-text{
+            width: 28vw;
+            padding: 0;
+            margin: 0;
+        }
     section {
         padding-top: 5rem;
         gap: 2rem;
