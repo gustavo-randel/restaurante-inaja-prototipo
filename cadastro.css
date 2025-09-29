@@ -36,7 +36,9 @@ header a{
 
 header h1{
     padding: .8rem 1rem;
-    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
 }
 
 main{
@@ -72,13 +74,18 @@ a {
     font-weight: 700;
 }
 
-div{
+#icons-align p{
+    display: flex;
+    align-items: center;
+}
+
+#button-align{
     display: flex;
     justify-content: center;
 }
 
 button{
-    border-radius: 1rem;
+    border-radius: 1.5rem;
     text-align: center;
     border: solid #2B1515 2px;
     background-color: var(--cor2);
@@ -93,6 +100,10 @@ button{
     display: flex;
     align-items: center;
     gap: .5rem;
+}
+
+#section-2{
+    justify-content: center;
 }
 
 @media all and (max-width: 480px) {
