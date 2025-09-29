@@ -22,12 +22,47 @@ body{
     gap: 1rem;
 }
 
+header h1{
+    padding: 2rem 2rem 0rem 2rem;
+    text-align: center;
+}
+
+    header img#logo-image{
+        width: 30vw;
+        margin: -.5rem;
+    }
+    header img#logo-text{
+        width: 40vw;
+    }
+    #logos{
+        display: flex;
+        justify-content: center;
+    }
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 2vh;
+    padding: 1rem 1rem 4rem;
+}
+
+nav p{
+    border-bottom: 2px solid var(--cor1); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .2rem;
+    padding: .2rem;
+}
 
 nav ul {
     display: flex;
     flex-direction: row;
     gap: 1rem;
-    
+    padding: .2rem;
+    border-bottom: 2px solid var(--cor1); 
 }
     li, a{
         list-style: none;
