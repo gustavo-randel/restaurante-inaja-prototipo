@@ -253,3 +253,7 @@ footer {
             #copy p {
                 color: gray;
             }
+
+@media (min-width: 800px) and (max-width: 1199px) {
+    
+}
