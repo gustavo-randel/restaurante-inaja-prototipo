@@ -249,11 +249,74 @@ footer {
             flex-direction: row;
             gap: 1rem;
             width: 100%;
+            justify-content: space-between;
         }
             #copy p {
                 color: gray;
             }
 
+@media (max-width: 480px) {
+    header img#logo-image{
+    width: 30vw;
+    margin: -.5rem;
+    }
+    header img#logo-text{
+        width: 40vw;
+    }
+}
+
 @media (min-width: 800px) and (max-width: 1199px) {
-    
+    header img#logo-image {
+        width: 20vw;
+    }
+    header img#logo-text {
+        width: 30vw;
+    }
+    nav {
+        padding: 0 6rem 0 6rem;
+    }
+    #about div {
+        width: 50%;
+    }
+    aside{
+        width: 55%;
+    }
+    #initial{
+        width: 70%;
+    }
+    #copy {
+        gap: 8rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    header img#logo-image {
+        width: 14vw;
+    }
+    header img#logo-text {
+        width: 22vw;
+    }
+    nav {
+        padding: 0 10rem 0 10rem;
+    }
+    main article{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5rem;
+        padding: 1rem 0 4rem 0;
+    }
+    .dishes img {
+        width: 25vh;
+        height: 20vh;
+        object-fit: cover;
+    }
+    #about div {
+        width: 50%;
+    }
+    aside{
+        width: 50%;
+    }
+    #initial{
+        width: 50%;
+    }
 }
