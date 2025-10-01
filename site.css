@@ -265,7 +265,7 @@ footer {
     }
 }
 
-@media (min-width: 800px) and (max-width: 1199px) {
+@media (min-width: 800px) and (max-width: 1021px) {
     header img#logo-image {
         width: 20vw;
     }
@@ -289,7 +289,7 @@ footer {
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1023px) {
     header img#logo-image {
         width: 14vw;
     }
